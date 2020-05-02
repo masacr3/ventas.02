@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <button class="btn">MODAL WAAACHOOOO</button>
+    <div class="modal-bg">
+        <div class="modal">
+            <h2>Cantidad</h2>
+            <input type="text" class="cantidad">
+            <button class="btn-ok">OK</button>
+        </div>
+    </div>
+</body>
+<script>
+    var btn = document.querySelector('.btn')
+    var btnOk = document.querySelector('.btn-ok')
+    var modalBg = document.querySelector('.modal-bg')
+
+    btn.addEventListener('click',function(){
+        modalBg.classList.add('bg-active')
+    })
+
+    btnOk.addEventListener('click', function(){
+        modalBg.classList.remove('bg-active')
+    })
+
+</script>
+</html>

@@ -1,0 +1,75 @@
+.contenedor{
+    margin: 20px auto;
+    width: 1000px;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.grid{
+    height: 350px;
+    overflow: auto;
+}
+
+.cod-barras{
+    width: 700px;
+    height: 35px;
+    border-bottom: solid 1px #bdbdbd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.articulo{
+    width: 700px;
+    height: 35px;
+    border-bottom: solid 1px #bdbdbd;
+    border-left: solid 1px #bdbdbd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.total-c{
+    position: relative;
+    top: 35px;
+    width: 300px;
+    height: 350px;
+    color: blanchedalmond;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkorange;
+}
+
+.total{
+    width: 300px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/**/
+.scroll1::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.scroll1::-webkit-scrollbar-track {
+  background: #ddd;
+}
+ 
+.scroll1::-webkit-scrollbar-thumb {
+  background: #666; 
+}
