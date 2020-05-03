@@ -43,6 +43,27 @@
     border-bottom: 1px solid #bdbdbd;
 }
 
+.cantidad{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.producto{
+  width: 40%;
+  height: 100%;
+}
+
+.precio, .subtotal{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .bot{
     /*tamanio*/
@@ -58,10 +79,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-color: orange;
 }
 
 .total{
-    color: #757575;
+    color: white;
     font-size: 50px;
 }
 
